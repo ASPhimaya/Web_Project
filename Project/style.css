@@ -56,6 +56,8 @@ header{
 }
 .navbar a:hover{
     color: var(--main-color);
+    border-style: double;
+    padding: 10px; 
 }
 .h-right{
     display: flex;
