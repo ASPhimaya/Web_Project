@@ -30,7 +30,7 @@
     margin-bottom: 35px;
 }
 .content{
-    background-image: linear-gradient(to bottom,rgba(73, 60, 60, 0.795),rgba(94, 85, 85, 0.425)),url(../Project/images/about-back.jpg);
+    background-image: linear-gradient(to bottom,rgba(73, 60, 60, 0.795),rgba(94, 85, 85, 0.425)),url(../Project/images/about-back1.jpg);
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(175px,auto));
@@ -75,4 +75,58 @@
     border-radius: 50%;
     margin-right: 8px;
     transition: transform 0.6s;
+}
+.content2{
+    background-image: linear-gradient(to bottom,rgba(73, 60, 60, 0.795),rgba(94, 85, 85, 0.425)),url(../Project/images/about-back1.jpg);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(175px,auto));
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+table  th{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 600;
+    font-size: var(--h3-font);
+    padding: 10px;
+    border: 1px solid rgb(196, 187, 187);
+    border-radius: 10px;
+    background-color: var(--bg-color); 
+}
+table td{
+    padding: 10px;
+    padding-right: 30px;
+}
+table{
+    padding-left: 30px;
+}
+.content2-row{
+    padding: 20px;
+    width: 250px;
+    height: 325px;
+    margin:  auto;
+    background-color: #d1c6c6;
+    box-shadow: 0 0 17px #000;
+    justify-content: left;
+    color: #000 ;
+    border-radius: 20px;
+}
+.content2-row h2{
+    letter-spacing: 6px;
+    font-weight: 600;
+    font-size: var(--h2-font);
+    color: var(--bg-color);
+}
+.content2-row h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--bg-color);
+    margin-top: 15px;
+}
+.content2-row p{
+    font-size: var(--h3-font);
+    margin-top: 20px;
+    font-weight: 550;
 }
