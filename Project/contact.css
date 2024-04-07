@@ -1,0 +1,113 @@
+.contact{
+    
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(to bottom,rgba(20, 10, 10, 0.795),rgba(5, 5, 5, 0.425)),url(../Project/images/contact.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.content{
+    max-width: 900px;
+    text-align: center;
+    margin-top: 90px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: var(--main-color);
+}
+.content p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffffe5;
+    margin-bottom: 35px;
+}
+.container{
+    margin-bottom: 80px;
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: transform 0.6s;
+}
+.text h3{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+form{
+    width: 150%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+.input-group label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+form .row .input-group{
+    flex-basis: 48%;
+}
