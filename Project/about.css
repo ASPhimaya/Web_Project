@@ -2,7 +2,7 @@
     position: relative;
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(to bottom,rgba(20, 10, 10, 0.795),rgba(5, 5, 5, 0.425)),url(../Project/images/about.jpg);
+    background-image: linear-gradient(to bottom,rgba(20, 10, 10, 0.795),rgba(0, 0, 0, 0.836)),url(../Project/images/about.jpg);
     background-size: cover;
     background-position: bottom center;
     display: flex;

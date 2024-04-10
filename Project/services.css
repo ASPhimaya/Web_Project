@@ -1,0 +1,70 @@
+.service{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgba(14, 7, 7, 0.795),rgba(0, 0, 0, 0.836)),url(../Project/images/services.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+.service-text{
+    align-items: center;
+    text-align: center;
+    padding-left: 450px;
+    
+}
+.service-text h5{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: var(--main-color);
+}
+.service-text p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffffe5;
+    margin-bottom: 35px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 30px;
+    background: url("../Project/images/about-back1.jpg");
+}
+.grid-item{
+    
+    width: 375px;
+    height: 525px;
+    box-shadow: 0 0 17px #000000;
+    
+}
+.grid-item img{
+    width: 375px;
+    height: 250px;
+    align-items: center;
+}
+.grid-text h3{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 23px;
+    color: var(--main-color);
+}
+.grid-text p{
+    text-align: center;
+    margin-top: 20px;
+    
+    font-weight: 500;
+    padding: 10px;
+}
+    
