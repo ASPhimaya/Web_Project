@@ -111,3 +111,10 @@ form .row{
 form .row .input-group{
     flex-basis: 48%;
 }
+.map iframe{
+    width: 100%;
+    
+}
+    
+
+
